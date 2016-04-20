@@ -52,9 +52,8 @@ header
 .presentation h1
 {
     display: inline-block;
-    margin: 0px;
-    padding: 0px;
-    margin-top: 15px;
+    padding: 0;
+    margin: 15px 0 0;
     vertical-align: top;
     font-size: 2.5em;
 }
@@ -63,8 +62,8 @@ header
 {
     display: inline-block;
     position: absolute;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     bottom: 15px;
     left: 125px;
     font-size: 1.5em;
@@ -74,8 +73,8 @@ aside
 {
     display: inline-block;
     position: absolute;
-    right: 0px;
-    bottom: 0px;
+    right: 0;
+    bottom: 0;
     font-size: 1.5em;
 }
 
@@ -83,15 +82,14 @@ aside ul
 {
     text-align: right;
     list-style-type: none;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 aside ul li
 {
     margin-top: 20px;
-    background-repeat: no-repeat;
-    background-position: 0px center;
+    background: no-repeat 0 center;
     background-size: 25px;
     padding-left: 50px;
 }
@@ -116,14 +114,8 @@ section
     background-color: #394264;
 	border-radius: 5px;
 	width: 95%;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	margin-top: 5px;
-	margin-bottom: 50px;
+    padding: 5px 20px;
+    margin: 5px auto 50px;
     font-size: 1.3em;
     min-width: 560px;
 }
@@ -131,14 +123,8 @@ section
 .entete
 {
     display: inline-block;
-    margin: 0px;
-    padding: 0px;
-    margin-top: -5px;
-    margin-left: -20px;
-    padding-left: 15px;
-    padding-right: 25px;
-    padding-bottom: 9px;
-    padding-top: 9px;
+    margin: -5px 0 0 -20px;
+    padding: 9px 25px 9px 15px;
     width: 100%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -166,8 +152,8 @@ section .date
 
 section ul
 {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     font-size: 1.2em;
 }
 
@@ -193,8 +179,8 @@ h3
 {
     display: inline-block;
     font-size: 2em;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     vertical-align: middle;
 }
 
@@ -207,8 +193,7 @@ h4
 {
     display: inline-block;
 	width: 70px;
-    margin : 0px;
-    margin-right: 20px;
+    margin: 0 20px 0 0;
     vertical-align: middle;
 }
 
@@ -266,7 +251,7 @@ img
     }
     section .contenu
     {
-        padding-left: 0px;
+        padding-left: 0;
     }
     section .image_pres
     {

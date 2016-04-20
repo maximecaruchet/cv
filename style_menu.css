@@ -1,12 +1,10 @@
 /*Strip the ul of padding and list styling*/
 nav ul {
 	list-style-type:none;
-	margin:0;
 	padding:0;
 	/*position: absolute;*/
     width: 1050px;
-    margin-left: auto;
-    margin-right: auto;
+	margin: 0 auto;
 }
 
 /*Create a horizontal list with spacing*/
@@ -129,7 +127,7 @@ p
 	}
     nav li a
     {
-        border-radius: 0px;
+        border-radius: 0;
         font-size: 2em;
     }
     .dernier_bouton
