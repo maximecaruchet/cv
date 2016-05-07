@@ -6,6 +6,8 @@
         <!--[if lt IE 9]>
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
+        <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+        <script src="index.js"></script>
 		<link rel="stylesheet" href="style_CV.css" />
         <link rel="stylesheet" href="style_menu.css" />
         <title>Maxime Caruchet - CV</title>
@@ -16,12 +18,12 @@
     		<label for="show-menu" class="show-menu">Menu</label>
 			<input type="checkbox" id="show-menu" role="button">
 			<ul id="menu">
-                <li><a href="#experiences">Expériences</a></li>
-				<li><a href="#formation">Formation</a></li>
-				<li><a href="#competences">Compétences</a></li>
-				<li><a href="#interets">Centres d'intérêt</a></li>
-				<li><a href="res/cv_caruchet_maxime_v2.pdf">CV au format PDF</a></li>
-                <li><a href="about.html" class="dernier_bouton">A propos</a></li>
+                <li><a id="experiences_scroll" href="#">Expériences</a></li>
+				<li><a id="formation_scroll" href="#">Formation</a></li>
+				<li><a id="competences_scroll" href="#">Compétences</a></li>
+				<li><a id="interets_scroll" href="#">Centres d'intérêt</a></li>
+				<li><a id="pdf_cv" href="res/cv_caruchet_maxime_v2.pdf">CV au format PDF</a></li>
+                <li><a id="about" href="about.html" class="dernier_bouton">A propos</a></li>
 			</ul>
     	</nav>
         

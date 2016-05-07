@@ -160,6 +160,7 @@ section ul
 section .contenu
 {
     padding-left: 150px;
+    text-align: justify;
 }
 
 section .contenu ul
