@@ -73,8 +73,8 @@ aside
 {
     display: inline-block;
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 100px;
+    bottom: 25px;
     font-size: 1.5em;
 }
 
@@ -94,19 +94,14 @@ aside ul li
     padding-left: 50px;
 }
 
-aside ul .adresse
+aside ul .linkedin
 {
-    background-image: url(img/home63.png);
+    background-image: url(img/linkedin-logo.png);
 }
 
-aside ul .telephone
+aside ul .twitter
 {
-    background-image: url(img/phone325.png)
-}
-
-aside ul .email
-{
-    background-image: url(img/mail59.png);
+    background-image: url(img/twitter-logo.png)
 }
 
 section
@@ -240,6 +235,7 @@ img
         display: block;
         position: relative;
         margin-top: 50px;
+        right: 0;
     }
     aside ul
     {
