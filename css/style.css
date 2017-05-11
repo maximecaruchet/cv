@@ -59,3 +59,11 @@ footer.page-footer {
 #skills.parallax-container {
   z-index: 1;
 }
+
+.collection .collection-item.avatar .circle.square-border {
+  border-radius: 0;
+}
+
+.collection .collection-item.avatar .circle.unlock-height {
+  height: auto;
+}
