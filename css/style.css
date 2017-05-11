@@ -6,17 +6,8 @@
  * Made By MaterializeCSS.com
  */
 
-nav ul a,
-nav .brand-logo {
-  color: #444;
-}
-
 p {
   line-height: 2rem;
-}
-
-.button-collapse {
-  color: #26a69a;
 }
 
 .parallax-container {
@@ -33,15 +24,6 @@ p {
   .parallax-container .section {
     position: absolute;
     top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
   }
 }
 
@@ -66,4 +48,17 @@ footer.page-footer {
 
 .collection .collection-item.avatar .circle.unlock-height {
   height: auto;
+}
+
+a.contact-link {
+  display: block;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+a.contact-link:hover .col {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.collection .collection-item.avatar i.circle.skill-language {
+    font-size: 42px;
 }
