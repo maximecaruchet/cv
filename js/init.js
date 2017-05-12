@@ -6,7 +6,7 @@
 
     var $root = $('html, body');
     $('a').click(function() {
-      if ($.attr(this, 'href')[0] === '#') {
+      if ($.attr(this, 'href')[0] === '#' && $.attr(this, 'href')[1]) {
         $root.animate({
           scrollTop: $( $.attr(this, 'href') ).offset().top
         }, 500);
