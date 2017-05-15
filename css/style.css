@@ -62,6 +62,10 @@ a.contact-link:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+.parallax-title {
+  font-weight: 900;
+}
+
 .collection .collection-item .title {
   font-weight: 500;
 }
